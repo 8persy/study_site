@@ -1,0 +1,12 @@
+.header__logo {
+  margin-top: 30px;
+  margin-left: 64px;
+  width: 228px;
+  height: 32px;
+}
+
+.logo_palce_header {
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
