@@ -3,6 +3,14 @@
 <head>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/page.css">
+
+  <!-- srtles for modirires -->
+  <link rel="stylesheet" href="styles/modifiers/font-weight/font-weight.css">
+  <link rel="stylesheet" href="styles/modifiers/font-size/font-size.css">
+  <link rel="stylesheet" href="styles/modifiers/positions/positions.css">
+  <link rel="stylesheet" href="styles/modifiers/link/link.css">
+  <link rel="stylesheet" href="styles/modifiers/background-color/__grey/background-color__grey.css">
 
   <!-- styles for header -->
   <link rel="stylesheet" href="styles/header/header.css">
@@ -11,17 +19,36 @@
   <link rel="stylesheet" href="styles/header/__title/header__title.css">
   <link rel="stylesheet" href="styles/header/__subtitle/header__subtitle.css">
   <link rel="stylesheet" href="styles/header/__main-illustration/header__main-illustration.css">
+
+  <!-- styles for description -->
+  <link rel="stylesheet" href="styles/description/description.css">
+  <link rel="stylesheet" href="styles/description/__two-columns/description__two-columns.css">
+  <link rel="stylesheet" href="styles/description/__two-columns/_element/description__two-columns_element_brief.css">
+  <link rel="stylesheet" href="styles/description/__two-columns/_element/description__two-columns_element_main-text.css">
+  <link rel="stylesheet" href="styles/description/__two-columns/_element/description__two-columns_element_main-text_paragraph.css">
+
+  <!-- styles for digits -->
+  <link rel="stylesheet" href="styles/digits/digits.css">
+  <link rel="stylesheet" href="styles/digits/__title/digits__title.css">
+  <link rel="stylesheet" href="styles/digits/__subtitle/digits__subtitle.css">
+  <link rel="stylesheet" href="styles/digits/__table/digits__table.css">
+  <link rel="stylesheet" href="styles/digits/__table/_cell/digits__table_cell.css">
+  <link rel="stylesheet" href="styles/digits/__table/_cell/digits__table_cell_heading.css">
+  <link rel="stylesheet" href="styles/digits/__table/_cell/digits__table_cell_text.css">
+
+  <!-- meta data -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
 </head>
+
 <body>
   <div class="page">
     <header class="header background-color_grey">
       <div class="header__logo element__position_absolute">
         <img src="images/logo_place_header.svg" class="logo_place_header" alt="Yandex logo">
       </div>
-      <h1 class="header__title bold-text font-size_xl">
+      <h1 class="header__title font-weight_bold font-size_xl">
       Научиться учиться
       </h1>
       <div class="header__subtitle element__position_absolute font-size_xs">
@@ -36,15 +63,15 @@
     <main class="content">
       <section class="description">
         <div class="description__two-columns">
-          <h3 class='description__two-columns_element_brief normal-text font-size_xs'>Главные проблемы в обучении</h3>
+          <h3 class='description__two-columns_element_brief wont-weight_normal font-size_xs'>Главные проблемы в обучении</h3>
           <div class="description__two-columns_element_main-text">
-            <p class="description__two-columns_element_main-text_paragraph normal-text font-size_s">
+            <p class="description__two-columns_element_main-text_paragraph wont-weight_normal font-size_s">
             Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
             </p>
-            <p class="description__two-columns_element_main-text_paragraph margin-for-second-p normal-text font-size_s">
-              <span class='bold-text font-size_s'>Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+            <p class="description__two-columns_element_main-text_paragraph margin-for-second-p wont-weight_normal font-size_s">
+              <span class='font-weight_bold font-size_s'>Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
-            <p class="description__two-columns_element_main-text_paragraph normal-text font-size_s">
+            <p class="description__two-columns_element_main-text_paragraph wont-weight_normal font-size_s">
             Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
@@ -52,121 +79,121 @@
       </section>
 
       <section class="digits">
-        <h2 class="digits__title bold-text font-size_l text-align_center">Цифры и факты</h2>
+        <h2 class="digits__title font-weight_bold font-size_l text-align_center">Цифры и факты</h2>
 
-        <h3 class="digits__subtitle normal-text font-size_s text-align_center">Про учёбу и мозг</h3>
+        <h3 class="digits__subtitle wont-weight_normal font-size_s text-align_center">Про учёбу и мозг</h3>
 
         <div class="digits__table">
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">86 миллиардов</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Число нейронов в мозге человека</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">86 миллиардов</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Число нейронов в мозге человека</p>
           </div>
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">2.1 миллиарда</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Число нуждающихся в повышении квалификации</p>
-            <p class="digits__table_cell_text normal-text font-size_xs">Всемирный Банк, 2017</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">2.1 миллиарда</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Число нуждающихся в повышении квалификации</p>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Всемирный Банк, 2017</p>
           </div>
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">1000 терабайт</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Объём памяти человека</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">1000 терабайт</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Объём памяти человека</p>
           </div>
 
           <div class="digits__table_cell">
-            <h3 class="digits__table_cell_heading bold-text font-size_s">500 триллионов</h3>
-            <p class="digits__table_cell_text normal-text font-size_xs">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+            <h3 class="digits__table_cell_heading font-weight_bold font-size_s">500 триллионов</h3>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Число ответственных за обучение нервных синапсов у взрослого человека</p>
           </div>
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">420 миллионов</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="digits__table_cell_text normal-text font-size_xs">Всемирный Банк, 2017</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">420 миллионов</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Всемирный Банк, 2017</p>
           </div>
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">17–20 лет</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Пик обучаемости</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">17–20 лет</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Пик обучаемости</p>
           </div>
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">1885 год</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Открытие кривой забывания</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">1885 год</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Открытие кривой забывания</p>
           </div>
 
           <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading bold-text font-size_s">1889 год</h4>
-            <p class="digits__table_cell_text normal-text font-size_xs">Открытие условного рефлекса</p>
+            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">1889 год</h4>
+            <p class="digits__table_cell_text wont-weight_normal font-size_xs">Открытие условного рефлекса</p>
           </div>
 
         </div>
       </section>
 
       <section class="feynman background-color_grey">
-        <h2 class="feynman__title text-align_center font-size_xxl bold-text">Метод Фейнмана</h2>
+        <h2 class="feynman__title text-align_center font-size_xxl font-weight_bold">Метод Фейнмана</h2>
 
-        <h3 class="feynman__subtitle text-align_center font-size_m normal-text">Выучить и не забыть.</h3>
+        <h3 class="feynman__subtitle text-align_center font-size_m wont-weight_normal">Выучить и не забыть.</h3>
 
-        <a href="#" class="feynman__link link font-size_m normal-text">Подробнее →</a>
+        <a href="#" class="feynman__link link font-size_m wont-weight_normal">Подробнее →</a>
 
       </section>
 
       <section class="kaufman">
-        <h2 class="kaufman__title bold-text font-size_l text-align_center">Принципы обучения</h2>
+        <h2 class="kaufman__title font-weight_bold font-size_l text-align_center">Принципы обучения</h2>
 
-        <h3 class="kaufman__subtitle normal-text font-size_s text-align_center">от Джоша Кауфмана</h3>
+        <h3 class="kaufman__subtitle wont-weight_normal font-size_s text-align_center">от Джоша Кауфмана</h3>
 
         <div class="kaufman__table">
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">1</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Выберите привлекательный проект.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">1</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Выберите привлекательный проект.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">2</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Сосредоточьтесь на каком-то одном навыке.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">2</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Сосредоточьтесь на каком-то одном навыке.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">3</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Определите целевой уровень мастерства.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">3</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Определите целевой уровень мастерства.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">4</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Разбейте навык на элементы.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">4</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Разбейте навык на элементы.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">5</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Приготовьте всё необходимое для занятий.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">5</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Приготовьте всё необходимое для занятий.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">6</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Устраните препятствия для занятий.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">6</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Устраните препятствия для занятий.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">7</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Выделите специальное время для занятий.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">7</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Выделите специальное время для занятий.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">8</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Создайте быстрые петли обратной связи.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">8</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Создайте быстрые петли обратной связи.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">9</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">9</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
           </div>
 
           <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading bold-text font-size_s">10</h4>
-            <p class="kaufman__table_cell_text normal-text font-size_xs">Уделяйте внимание количеству и скорости.</p>
+            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">10</h4>
+            <p class="kaufman__table_cell_text wont-weight_normal font-size_xs">Уделяйте внимание количеству и скорости.</p>
           </div>
 
         </div>
@@ -184,7 +211,7 @@
         </div>
 
         <nav class="footer__columns_column column__content_info">
-          <p class="footer__column_heading font-size_xs bold-text">О Практикуме</p>
+          <p class="footer__column_heading font-size_xs font-weight_bold">О Практикуме</p>
           <div class="footer__column_links">
             <a href="#" class="footer__column_links_link link font-size_xs">Главная</a>
             <a href="#" class="footer__column_links_link link font-size_xs">Концепция</a>
@@ -193,7 +220,7 @@
         </nav>
 
         <div class="footer__columns_column column__content_social">
-          <p class="footer__column_heading font-size_xs bold-text">Соцсети</p>
+          <p class="footer__column_heading font-size_xs font-weight_bold">Соцсети</p>
           <a href="#" class="footer__column_links_link link font-size_xs">
             <img src="images/youtube_color_white.svg" class="footer__column_links_link_logo" alt="YouTube logo">
             YouTube
