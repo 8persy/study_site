@@ -1,0 +1,11 @@
+.footer {
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+  color: white;
+}
+
+.column__content_copyright {
+  justify-content: space-between;
+}
