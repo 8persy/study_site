@@ -1,0 +1,7 @@
+.section_title {
+  margin: 100px auto 0 auto;
+  width: 60%;
+  line-height: 1.15;
+  text-align: center;
+  z-index: 2;
+}
