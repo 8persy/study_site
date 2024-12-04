@@ -41,6 +41,18 @@
   <link rel="stylesheet" type="text/css" href="styles/two-columns/__main-text/two-columns__main-text.css">
   <link rel="stylesheet" type="text/css" href="styles/two-columns/__paragraph/two-columns__paragraph.css">
 
+  <!-- styles for khan -->
+  <link rel="stylesheet" href="styles/khan/khan.css">
+  <link rel="stylesheet" href="styles/khan/__container/khan__container.css">
+  <link rel="stylesheet" href="styles/khan/__author/khan__author.css">
+  <link rel="stylesheet" href="styles/khan/__title/khan__title.css">
+  <link rel="stylesheet" href="styles/khan/__quote/khan__quote.css">
+  <link rel="stylesheet" href="styles/khan/__quote-author/khan__quote-author.css">
+  <link rel="stylesheet" href="styles/khan/__quote-author-subline/khan__quote-author-subline.css">
+  <link rel="stylesheet" href="styles/khan/__book-container/khan__book-container.css">
+  <link rel="stylesheet" href="styles/khan/__book-pic/khan__book-pic.css">
+  <link rel="stylesheet" href="styles/khan/__buy-link/khan__buy-link.css">
+
   <!-- styles for digits -->
   <link rel="stylesheet" href="styles/digits/digits.css">
   <link rel="stylesheet" href="styles/digits/__title/digits__title.css">
@@ -66,16 +78,6 @@
   <link rel="stylesheet" href="styles/kaufman/__table/_cell/kaufman__table_cell_text.css">
   <link rel="stylesheet" href="styles/kaufman/__image/kaufman__image.css">
 
-  <!-- styles for footer -->
-  <link rel='stylesheet' href="styles/footer/footer.css">
-  <link rel='stylesheet' href="styles/footer/__columns/footer__columns.css">
-  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__columns_column.css">
-  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__columns_column_logo.css">
-  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__columns_column_author.css">
-  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__column_links_link.css">
-  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__column_heading.css">
-  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__column_links_link_logo.css">
-
   <!-- styles for modirires -->
   <link rel="stylesheet" href="styles/modifiers/font-weight/font-weight.css">
   <link rel="stylesheet" href="styles/modifiers/font-size/font-size.css">
@@ -86,6 +88,22 @@
   <link rel="stylesheet" href="styles/modifiers/title/section_subtitle.css">
   <link rel="stylesheet" href="styles/modifiers/margin/margin_oakley.css">
   <link rel="stylesheet" href="styles/modifiers/margin/margin_for-second-p.css">
+
+  <!-- styles for resources -->
+  <link rel="stylesheet" type="text/css" href="styles/resources/resources.css">
+  <link rel="stylesheet" type="text/css" href="styles/resources/__logo-zone/resources__logo-zone.css">
+  <link rel="stylesheet" type="text/css" href="styles/resources/__logo/resources__logo.css">
+  <link rel="stylesheet" type="text/css" href="styles/resources/__link/resources__link.css">
+
+  <!-- styles for footer -->
+  <link rel='stylesheet' href="styles/footer/footer.css">
+  <link rel='stylesheet' href="styles/footer/__columns/footer__columns.css">
+  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__columns_column.css">
+  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__columns_column_logo.css">
+  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__columns_column_author.css">
+  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__column_links_link.css">
+  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__column_heading.css">
+  <link rel='stylesheet' href="styles/footer/__columns/_column/footer__column_links_link_logo.css">
 
   <!-- meta data -->
   <meta charset="UTF-8">
@@ -189,7 +207,6 @@
       </section>
 
       <section class="oakley background-color__grey">
-
         <div class="two-columns margin_oakley">
           
           <div class="two-columns__brief font-weight_normal font-size_xs">
@@ -201,6 +218,14 @@
           </div>
 
         </div>
+      </section>
+
+      <section class="feynman background-color__grey">
+        <h2 class="feynman__title text-align_center font-size_xxl font-weight_bold">Метод Фейнмана</h2>
+
+        <h3 class="feynman__subtitle text-align_center font-size_m font-weight_normal">Выучить и не забыть.</h3>
+
+        <a href="#" class="feynman__link link font-size_m font-weight_normal">Подробнее →</a>
 
       </section>
 
@@ -256,13 +281,28 @@
         </div>
       </section>
 
-      <section class="feynman background-color__grey">
-        <h2 class="feynman__title text-align_center font-size_xxl font-weight_bold">Метод Фейнмана</h2>
+      <section class="khan background-color__grey">
+        <div class="khan__container">
+          
+          <h3 class="khan__author font-weight_normal ">Салман Хан</h3>
 
-        <h3 class="feynman__subtitle text-align_center font-size_m font-weight_normal">Выучить и не забыть.</h3>
+          <h2 class="khan__title font-size_l font-weight_bold">Весь мир — школа</h2>
 
-        <a href="#" class="feynman__link link font-size_m font-weight_normal">Подробнее →</a>
+          <div class="khan__quote font-size_s font-weight_normal">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</div>
 
+          <div class="khan__quote-author font-size_s font-weight_bold">Джордж Лукас</div>
+
+          <div class="khan__quote-author-subline font-size_s font-weight_normal">Кинорежиссер, продюсер</div>
+
+          <div class="khan__book-container">
+
+              <img src="images_sprint-2/khan-book.jpg" class="khan__book-pic" alt="khan book">
+
+              <a class="khan__buy-link link font-weight_normal" href="#">Купить книгу →</a>
+
+          </div>
+
+        </div>
       </section>
 
       <section class="kaufman">
@@ -327,6 +367,33 @@
         <img src="images/kaufman-triangle.svg" class="kaufman__image rotation" alt="triangle">
 
       </section>
+
+      <section class="resources">
+        
+        <h2 class="section_title font-weight_bold font-size_l">Полезные ресурсы</h2>
+
+        <h3 class="section_subtitle font-weight_normal font-size_s">Больше материалов о техниках и лайфхаках обучения</h3>
+
+        <div class="resources__logo-zone">
+          <a href="#" class="resources__link">
+            <img src="images_sprint-2/logo/resources-arzamas.svg" class="resources__logo">
+          </a>
+
+          <a href="#" class="resources__link">
+            <img src="images_sprint-2/logo/resources-n1.svg" class="resources__logo">
+          </a>
+
+          <a href="#" class="resources__link">
+            <img src="images_sprint-2/logo/resources-strelka.svg" class="resources__logo">
+          </a>
+
+          <a href="#" class="resources__link">
+            <img src="images_sprint-2/logo/resources-polka.svg" class="resources__logo">
+          </a>
+        </div>
+
+      </section>
+
     </main>
 
     <footer class="footer">
