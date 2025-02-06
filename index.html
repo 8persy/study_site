@@ -21,10 +21,10 @@
   <!-- styles for techniques -->
   <link rel="stylesheet" href="styles/techniques/techniques.css">
   <link rel="stylesheet" href="styles/techniques/__cards/techniques__cards.css">
-  <link rel="stylesheet" href="styles/techniques/__cards/__item/techniques__cards__item.css">
-  <link rel="stylesheet" href="styles/techniques/__cards/__item/techniques__cards__item_img.css">
-  <link rel="stylesheet" href="styles/techniques/__cards/__item/techniques__cards__item_title.css">
-  <link rel="stylesheet" href="styles/techniques/__cards/__item/techniques__cards__item_description.css">
+  <link rel="stylesheet" href="styles/techniques/__item/techniques__item.css">
+  <link rel="stylesheet" href="styles/techniques/__img/techniques__img.css">
+  <link rel="stylesheet" href="styles/techniques/__item-title/techniques__item-title.css">
+  <link rel="stylesheet" href="styles/techniques/__item-description/techniques__item-description.css">
 
   <!-- styles for video section -->
   <link rel="stylesheet" href="styles/video/video.css">
@@ -58,6 +58,14 @@
   <link rel="stylesheet" href="styles/digits/__table/_cell/digits__table_cell_heading.css">
   <link rel="stylesheet" href="styles/digits/__table/_cell/digits__table_cell_text.css">
 
+  <!-- styles for table -->
+  <link rel="stylesheet" href="styles/table/table.css">
+  <link rel="stylesheet" href="styles/table/__cell/table__cell.css">
+  <link rel="stylesheet" href="styles/table/__heading/table__heading.css">
+  <link rel="stylesheet" href="styles/table/__text/table__text.css">
+  <link rel="stylesheet" href="styles/table/__theme/table__theme_dark.css">
+  <link rel="stylesheet" href="styles/table/__cell/__theme/table__cell__theme_dark.css">
+
   <!-- styles for feynman  -->
   <link rel="stylesheet" href="styles/feynman/feynman.css">
   <link rel="stylesheet" href="styles/feynman/__title/feynman__title.css">
@@ -68,10 +76,6 @@
   <link rel="stylesheet" href="styles/kaufman/kaufman.css">
   <link rel="stylesheet" href="styles/kaufman/__title/kaufman__title.css">
   <link rel="stylesheet" href="styles/kaufman/__subtitle/kaufman__subtitle.css">
-  <link rel="stylesheet" href="styles/kaufman/__table/kaufman__table.css">
-  <link rel="stylesheet" href="styles/kaufman/__table/_cell/kaufman__table_cell.css">
-  <link rel="stylesheet" href="styles/kaufman/__table/_cell/kaufman__table_cell_heading.css">
-  <link rel="stylesheet" href="styles/kaufman/__table/_cell/kaufman__table_cell_text.css">
   <link rel="stylesheet" href="styles/kaufman/__image/kaufman__image.css">
 
   <!-- styles for modirires -->
@@ -156,34 +160,34 @@
 
         <div class="techniques__cards">
 
-          <div class="techniques__cards__item">
-            <img src="images_sprint-2/cards-attention.png" class="techniques__cards__item_img" alt='attention'>
-            <h4 class="techniques__cards__item_title font-size_s font-weight_bold">Два вида внимания</h4>
-            <p class="techniques__cards__item_description font-size_xs font-weight_normal">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          <div class="techniques__item">
+            <img src="images_sprint-2/cards-attention.png" class="techniques__img" alt='attention'>
+            <h4 class="techniques__item-title font-size_s font-weight_bold">Два вида внимания</h4>
+            <p class="techniques__item-description font-size_xs font-weight_normal">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
 
-          <div class="techniques__cards__item">
-            <img src="images_sprint-2/cards-recall.png" class="techniques__cards__item_img" alt='attention'>
-            <h4 class="techniques__cards__item_title font-size_s font-weight_bold">Recall</h4>
-            <p class="techniques__cards__item_description font-size_xs font-weight_normal">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          <div class="techniques__item">
+            <img src="images_sprint-2/cards-recall.png" class="techniques__img" alt='attention'>
+            <h4 class="techniques__item-title font-size_s font-weight_bold">Recall</h4>
+            <p class="techniques__item-description font-size_xs font-weight_normal">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
 
-          <div class="techniques__cards__item">
-            <img src="images_sprint-2/cards-interliving.png" class="techniques__cards__item_img" alt='attention'>
-            <h4 class="techniques__cards__item_title font-size_s font-weight_bold">Интерливинг</h4>
-            <p class="techniques__cards__item_description font-size_xs font-weight_normal">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          <div class="techniques__item">
+            <img src="images_sprint-2/cards-interliving.png" class="techniques__img" alt='attention'>
+            <h4 class="techniques__item-title font-size_s font-weight_bold">Интерливинг</h4>
+            <p class="techniques__item-description font-size_xs font-weight_normal">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
 
-          <div class="techniques__cards__item">
-            <img src="images_sprint-2/cards-question.png" class="techniques__cards__item_img" alt='attention'>
-            <h4 class="techniques__cards__item_title font-size_s font-weight_bold">Вопросы</h4>
-            <p class="techniques__cards__item_description font-size_xs font-weight_normal">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          <div class="techniques__item">
+            <img src="images_sprint-2/cards-question.png" class="techniques__img" alt='attention'>
+            <h4 class="techniques__item-title font-size_s font-weight_bold">Вопросы</h4>
+            <p class="techniques__item-description font-size_xs font-weight_normal">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
 
-          <div class="techniques__cards__item">
-            <img src="images_sprint-2/cards-competence.png" class="techniques__cards__item_img" alt='attention'>
-            <h4 class="techniques__cards__item_title font-size_s font-weight_bold">Иллюзия компетентности</h4>
-            <p class="techniques__cards__item_description font-size_xs font-weight_normal">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          <div class="techniques__item">
+            <img src="images_sprint-2/cards-competence.png" class="techniques__img" alt='attention'>
+            <h4 class="techniques__item-title font-size_s font-weight_bold">Иллюзия компетентности</h4>
+            <p class="techniques__item-description font-size_xs font-weight_normal">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
 
         </div>
@@ -235,48 +239,48 @@
 
         <h3 class="font-weight_normal font-size_s section_subtitle">Про учёбу и мозг</h3>
 
-        <div class="digits__table">
+        <div class="table">
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">86 миллиардов</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Число нейронов в мозге человека</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">86 миллиардов</h4>
+            <p class="table__text font-weight_normal font-size_xs">Число нейронов в мозге человека</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">2.1 миллиарда</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Число нуждающихся в повышении квалификации</p>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Всемирный Банк, 2017</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">2.1 миллиарда</h4>
+            <p class="table__text font-weight_normal font-size_xs">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text font-weight_normal font-size_xs">Всемирный Банк, 2017</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">1000 терабайт</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Объём памяти человека</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">1000 терабайт</h4>
+            <p class="table__text font-weight_normal font-size_xs">Объём памяти человека</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h3 class="digits__table_cell_heading font-weight_bold font-size_s">500 триллионов</h3>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+          <div class="table__cell">
+            <h3 class="table__heading font-weight_bold font-size_s">500 триллионов</h3>
+            <p class="table__text font-weight_normal font-size_xs">Число ответственных за обучение нервных синапсов у взрослого человека</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">420 миллионов</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Всемирный Банк, 2017</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">420 миллионов</h4>
+            <p class="table__text font-weight_normal font-size_xs">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="table__text font-weight_normal font-size_xs">Всемирный Банк, 2017</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">17–20 лет</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Пик обучаемости</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">17–20 лет</h4>
+            <p class="table__text font-weight_normal font-size_xs">Пик обучаемости</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">1885 год</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Открытие кривой забывания</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">1885 год</h4>
+            <p class="table__text font-weight_normal font-size_xs">Открытие кривой забывания</p>
           </div>
 
-          <div class="digits__table_cell">
-            <h4 class="digits__table_cell_heading font-weight_bold font-size_s">1889 год</h4>
-            <p class="digits__table_cell_text font-weight_normal font-size_xs">Открытие условного рефлекса</p>
+          <div class="table__cell">
+            <h4 class="table__heading font-weight_bold font-size_s">1889 год</h4>
+            <p class="table__text font-weight_normal font-size_xs">Открытие условного рефлекса</p>
           </div>
 
         </div>
@@ -311,54 +315,54 @@
 
         <h3 class="kaufman__subtitle font-weight_normal font-size_s section_subtitle">от Джоша Кауфмана</h3>
 
-        <div class="kaufman__table">
+        <div class="table table__theme_dark">
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">1</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Выберите привлекательный проект.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">1</h4>
+            <p class="table__text font-weight_normal font-size_xs">Выберите привлекательный проект.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">2</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Сосредоточьтесь на каком-то одном навыке.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">2</h4>
+            <p class="table__text font-weight_normal font-size_xs">Сосредоточьтесь на каком-то одном навыке.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">3</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Определите целевой уровень мастерства.</p>
+          <div class="table__cell table__cell__theme_darktable__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">3</h4>
+            <p class="table__text font-weight_normal font-size_xs">Определите целевой уровень мастерства.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">4</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Разбейте навык на элементы.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">4</h4>
+            <p class="table__text font-weight_normal font-size_xs">Разбейте навык на элементы.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">5</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Приготовьте всё необходимое для занятий.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">5</h4>
+            <p class="table__text font-weight_normal font-size_xs">Приготовьте всё необходимое для занятий.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">6</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Устраните препятствия для занятий.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">6</h4>
+            <p class="table__text font-weight_normal font-size_xs">Устраните препятствия для занятий.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">7</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Выделите специальное время для занятий.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">7</h4>
+            <p class="table__text font-weight_normal font-size_xs">Выделите специальное время для занятий.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">8</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Создайте быстрые петли обратной связи.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">8</h4>
+            <p class="table__text font-weight_normal font-size_xs">Создайте быстрые петли обратной связи.</p>
           </div>
 
-          <div class="kaufman__table_cell">
-            <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">9</h4>
-            <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          <div class="table__cell table__cell__theme_dark">
+            <h4 class="table__heading font-weight_bold font-size_s">9</h4>
+            <p class="table__text font-weight_normal font-size_xs">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
           </div>
 
-          <div class="kaufman__table_cell">
+          <div class="table__cell table__cell__theme_dark">
             <h4 class="kaufman__table_cell_heading font-weight_bold font-size_s">10</h4>
             <p class="kaufman__table_cell_text font-weight_normal font-size_xs">Уделяйте внимание количеству и скорости.</p>
           </div>
