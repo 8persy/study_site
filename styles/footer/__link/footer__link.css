@@ -1,5 +1,5 @@
-.footer__column_links_link {
-  display: block;
+.footer__link {
+	display: block;
   color: white;
   margin-bottom: 5px;
   line-height: 30px;
